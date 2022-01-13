@@ -6,8 +6,8 @@
   <div class="d-flex flex-column">
 
     <div class="profile">
-      <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-      <h1 class="text-light"><a href="/">Wan'z Hate'd</a></h1>
+      <img src="/assets/img/aqil-potrait.jpg" alt="" class="img-fluid rounded-circle">
+      <h1 class="text-light"><a href="/">Aqil Rahmat</a></h1>
       <div class="social-links mt-3 text-center">
         <a href="https://twitter.com/aqil_rahmat99" class="twitter" target="_Blank"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/tachibanaaqirito" class="facebook" target="_Blank"><i class="bx bxl-facebook"></i></a>
