@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-af830265.js",
+    "file": "start-56412e51.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -14,7 +14,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-67fc93b3.js",
+    "file": "pages/__layout.svelte-16ceb46a.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -22,10 +22,10 @@
       "_vendor-2185c327.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-ffdd1f17.css"
+      "assets/pages/__layout.svelte-7b917714.css"
     ],
     "assets": [
-      "assets/hero-bg-4bc7d92d.jpg"
+      "assets/genshin-4b385bcd.jpg"
     ]
   },
   ".svelte-kit/build/components/error.svelte": {
@@ -38,7 +38,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-ae6c612e.js",
+    "file": "pages/index.svelte-12440175.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
