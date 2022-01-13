@@ -9,7 +9,7 @@
 
     <div class="row">
       <div class="col-lg-4" data-aos="fade-right">
-        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+        <img src="/assets/img/aqil-potrait.jpg" class="img-fluid" alt="">
       </div>
       <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Software Developer.</h3>
@@ -21,7 +21,7 @@
           <div class="col-lg-6">
             <ul>
               <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>12 January 1999</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>aqirito.tech</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>aqirito.tk</span></li>
               <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+6 016-3594134</span></li>
               <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kunak, Sabah</span></li>
             </ul>
@@ -29,7 +29,7 @@
           <div class="col-lg-6">
             <ul>
               <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Diploma</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Diploma In Mechatronics</span></li>
               <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>aqil.rahmat@kinabalumakers.dev</span></li>
               <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Unavailable yet</span></li>
             </ul>
