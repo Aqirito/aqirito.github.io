@@ -7,13 +7,13 @@
 
     <div class="profile">
       <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-      <h1 class="text-light"><a href="/">Alex Smith</a></h1>
+      <h1 class="text-light"><a href="/">Wan'z Hate'd</a></h1>
       <div class="social-links mt-3 text-center">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://twitter.com/aqil_rahmat99" class="twitter" target="_Blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/tachibanaaqirito" class="facebook" target="_Blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/aqil.rahmat99" class="instagram" target="_Blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/Aqirito" class="github" target="_BLank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/aqil-rahmat-98004a112" class="linkedin" target="_Blank"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
 
