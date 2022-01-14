@@ -4,7 +4,7 @@
 
     <div class="section-title">
       <h2>Skills</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <p>These are some of the skills and expertise I gained while I was working on developing the project.</p>
     </div>
 
     <div class="row skills-content">
@@ -26,7 +26,7 @@
         </div>
 
         <div class="progress">
-          <span class="skill">Svelte/CMS <i class="val">65%</i></span>
+          <span class="skill">Svelte/CMS (getting used to it) <i class="val">65%</i></span>
           <div class="progress-bar-wrap">
             <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
