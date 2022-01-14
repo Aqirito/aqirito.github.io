@@ -11,34 +11,31 @@
       <div class="col-lg-6" data-aos="fade-up">
         <h3 class="resume-title">Sumary</h3>
         <div class="resume-item pb-0">
-          <h4>Alex Smith</h4>
-          <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+          <h4>Mohammad Aqil Bin Rahmat</h4>
+          <p><em>Innovative and deadline-driven Software Developer with 2+ years of experience digitalization and developing user-centered from initial concept to final, polished deliverable.</em></p>
           <ul>
-            <li>Portland par 127,Orlando, FL</li>
-            <li>(123) 456-7891</li>
-            <li>alice.barkley@example.com</li>
+            <li>University Condo Apartment 2, KG Dambai, Menggatal, Sabah</li>
+            <li>(+60) 16-3594134</li>
+            <li>aqil.rahmat@kinabalumakers.dev</li>
           </ul>
         </div>
 
         <h3 class="resume-title">Education</h3>
         <div class="resume-item">
-          <h4>Master of Fine Arts &amp; Graphic Design</h4>
-          <h5>2015 - 2016</h5>
-          <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-          <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-        </div>
-        <div class="resume-item">
-          <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-          <h5>2010 - 2014</h5>
-          <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-          <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+          <h4>Diploma In Mechatronics</h4>
+          <h5>2017 - 2019</h5>
+          <p><em>No. 4, Jalan Politeknik, KKIP Barat, Kota Kinabalu Industrial Park, Politeknik Kota Kinabalu, 88460 Kota Kinabalu, Sabah.</em></p>
+          <p>
+            Activities and Societies: Got 3 gold medal on drone category for Autonomous Tower Inspection, Autonomous Race, Emergency Delivery at 12th FIRA Malaysia Cup 2019. 
+            Got 1 gold medal on drone category for Agility Mode at 24th FIRA ROBOWORLD CUP KOREA 2019. Got 4th Place on drone category for Autonomous Tower Inspection and Autonomous Emergency Delivery at 24th FIRA ROBOWORLD CUP KOREA 2019.
+          </p>
         </div>
       </div>
       <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
         <h3 class="resume-title">Professional Experience</h3>
         <div class="resume-item">
-          <h4>Senior graphic design specialist</h4>
-          <h5>2019 - Present</h5>
+          <h4>Software Developer</h4>
+          <h5>2021 - Present</h5>
           <p><em>Experion, New York, NY </em></p>
           <ul>
             <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
@@ -48,14 +45,12 @@
           </ul>
         </div>
         <div class="resume-item">
-          <h4>Graphic design specialist</h4>
-          <h5>2017 - 2018</h5>
+          <h4>Junior Software Developer</h4>
+          <h5>2019 - 2020</h5>
           <p><em>Stepping Stone Advertising, New York, NY</em></p>
           <ul>
-            <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-            <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-            <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-            <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+            <li>As an IoT and Robotics Hackathon trainer for various colleges and schools</li>
+            <li>Develop a digitization system that can facilitate user management especially to local organizations</li>
           </ul>
         </div>
       </div>
