@@ -1,6 +1,6 @@
 {
   ".svelte-kit/build/runtime/internal/start.js": {
-    "file": "start-2c26117a.js",
+    "file": "start-97e01b6a.js",
     "src": ".svelte-kit/build/runtime/internal/start.js",
     "isEntry": true,
     "imports": [
@@ -14,7 +14,7 @@
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-16ceb46a.js",
+    "file": "pages/__layout.svelte-38b5ca48.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -22,10 +22,10 @@
       "_vendor-2185c327.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-7b917714.css"
+      "assets/pages/__layout.svelte-5868490c.css"
     ],
     "assets": [
-      "assets/genshin-4b385bcd.jpg"
+      "assets/aqirito-website-bg-d262a0bb.jpg"
     ]
   },
   ".svelte-kit/build/components/error.svelte": {
@@ -38,7 +38,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-15ef35ac.js",
+    "file": "pages/index.svelte-b6da6405.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
