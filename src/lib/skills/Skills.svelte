@@ -12,21 +12,21 @@
       <div class="col-lg-6" data-aos="fade-up">
 
         <div class="progress">
-          <span class="skill">Angular <i class="val">95%</i></span>
+          <span class="skill">Angular v13 <i class="val">95%</i></span>
           <div class="progress-bar-wrap">
             <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
 
         <div class="progress">
-          <span class="skill">Ionic Capacitor <i class="val">80%</i></span>
+          <span class="skill">Ionic Capacitor@next <i class="val">80%</i></span>
           <div class="progress-bar-wrap">
             <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
 
         <div class="progress">
-          <span class="skill">Svelte/CMS (getting used to it) <i class="val">65%</i></span>
+          <span class="skill">Svelte@next <i class="val">65%</i></span>
           <div class="progress-bar-wrap">
             <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
