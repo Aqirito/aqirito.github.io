@@ -55,7 +55,7 @@
             <li>Develop a digitization system that can facilitate user management especially to local organizations</li>
             <li>Successfully developed several government systems & websites including the Kementerian Belia & Sukan Sabah - <a href="https://ekbss.sabah.gov.my/en-US/auth/login">Youth Management System (KBS-YMS)</a>, Politeknik Kota Kinabalu - 
               <a href="https://bams.polikk.edu.my/en-US/auth/login">Biometric Attendance System (PKK-BAMS)</a>, Ko-Nelayan - 
-              <a href="http://ekan.kitahost.ga">(E-Kan)</a>,  Jabatan Hal Ehwal Wanita Sabah - <a href="http://eledger.kitahost.ga/login">(JHEWA - DLedger)</a>.
+              <a href="https://ekan.com.my">(E-Kan)</a>,  Jabatan Hal Ehwal Wanita Sabah - <a href="http://eledger.kitahost.ga/login">(JHEWA - DLedger)</a>.
             </li>
           </ul>
         </div>
