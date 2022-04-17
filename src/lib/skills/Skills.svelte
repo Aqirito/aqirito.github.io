@@ -26,9 +26,9 @@
         </div>
 
         <div class="progress">
-          <span class="skill">Svelte@next <i class="val">65%</i></span>
+          <span class="skill">Sveltekit@next <i class="val">85%</i></span>
           <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
 
@@ -39,21 +39,21 @@
         <div class="progress">
           <span class="skill">Flask <i class="val">40%</i></span>
           <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
 
         <div class="progress">
           <span class="skill">NestJs <i class="val">50%</i></span>
           <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
 
         <div class="progress">
           <span class="skill">Docker <i class="val">50%</i></span>
           <div class="progress-bar-wrap">
-            <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
         </div>
 
