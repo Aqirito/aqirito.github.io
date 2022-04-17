@@ -36,3 +36,11 @@ npm run build
 ```
 
 > You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+
+## Deploying on Github
+```bash
+npm run build
+cp -r build/* docs/
+```
+commit all the chance then push to main. you can see on the github action in action.
+
