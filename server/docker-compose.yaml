@@ -1,0 +1,12 @@
+services:
+  sv-aqirito-web:
+    image: aqirito-web:latest
+    container_name: cnt-aqirito-web
+    ports:
+      - "3000:3000"
+    restart: always
+
+networks:
+  default:
+    name: animenet
+    external: true
