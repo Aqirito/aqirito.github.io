@@ -56,7 +56,7 @@
 							<div class="method-icon">📧</div>
 							<div class="method-content">
 								<h3>Email</h3>
-								<p>tachibana.aqirito@email.com</p>
+								<p>aqil.rahmat@kinabalumakers.dev</p>
 								<span class="method-note">Best for project inquiries</span>
 							</div>
 						</div>
