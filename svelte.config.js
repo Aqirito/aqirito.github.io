@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -6,18 +6,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		adapter: adapter({
-			// default options are shown. On some platforms
-			// these options are set automatically — see below
-			// pages: 'build',
-			// assets: 'build',
-			fallback: 'index.html',
-			// precompress: false,
-			// strict: false
-		}),
-    paths: {
-      base: process.env.NODE_ENV === 'production' ? '/aqirito.github.io' : '',
-    }
+		adapter: adapter({})
 	}
 };
 
