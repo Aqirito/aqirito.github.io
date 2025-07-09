@@ -83,6 +83,58 @@
 	</div>
 </section>
 
+<!-- GitHub Stats Preview -->
+<section class="section" style="background: var(--surface);">
+	<div class="container">
+		<h2 class="section-title">GitHub Activity</h2>
+		<div class="github-preview">
+			<div class="stats-preview">
+				<div class="stat-item">
+					<div class="stat-number">1,030+</div>
+					<div class="stat-label">Contributions</div>
+				</div>
+				<div class="stat-item">
+					<div class="stat-number">30+</div>
+					<div class="stat-label">Repositories</div>
+				</div>
+				<div class="stat-item">
+					<div class="stat-number">13+</div>
+					<div class="stat-label">Followers</div>
+				</div>
+				<div class="stat-item">
+					<div class="stat-number">6+</div>
+					<div class="stat-label">Languages</div>
+				</div>
+			</div>
+			<div class="github-preview-content">
+				<h3>Real-time GitHub Statistics</h3>
+				<p>
+					Track my coding journey with live GitHub statistics, contribution graphs, 
+					achievement badges, and language usage analytics. See my commitment to 
+					continuous learning, open-source contribution, and organizational collaboration 
+					with Kinabalu Makers.
+				</p>
+				<a href="/github" class="btn">View Detailed Stats</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Website Credits -->
+<section class="section">
+	<div class="container">
+		<div class="credits-content">
+			<h2>🤖 Built with AI Assistance</h2>
+			<p>This website was 98% created by <strong>Cline</strong> (AI coding assistant) and <strong>Manus</strong> (human guidance), showcasing the power of AI-human collaboration in modern web development.</p>
+			<div class="credits-tags">
+				<span class="credit-tag">Cline AI</span>
+				<span class="credit-tag">Human-AI Collaboration</span>
+				<span class="credit-tag">SvelteKit</span>
+			</div>
+		</div>
+	</div>
+</section>
+
 <!-- Call to Action -->
 <section class="section">
 	<div class="container">
@@ -166,6 +218,41 @@
 		flex-wrap: wrap;
 	}
 
+	.credits-content {
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	.credits-content h2 {
+		font-size: 2rem;
+		font-weight: 700;
+		margin-bottom: 1rem;
+		color: var(--text-primary);
+	}
+
+	.credits-content p {
+		font-size: 1.125rem;
+		color: var(--text-secondary);
+		margin-bottom: 1.5rem;
+	}
+
+	.credits-tags {
+		display: flex;
+		gap: 0.75rem;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.credit-tag {
+		background: var(--primary-color);
+		color: white;
+		padding: 0.5rem 1rem;
+		border-radius: 20px;
+		font-size: 0.875rem;
+		font-weight: 500;
+	}
+
 	@media (max-width: 768px) {
 		.hero-actions,
 		.cta-actions {
@@ -177,44 +264,14 @@
 		.cta-content h2 {
 			font-size: 2rem;
 		}
+
+		.credits-content h2 {
+			font-size: 1.75rem;
+		}
+
+		.credits-tags {
+			flex-direction: column;
+			align-items: center;
+		}
 	}
 </style>
-
-
-	<!-- GitHub Stats Preview -->
-	<section class="section" style="background: var(--surface);">
-		<div class="container">
-			<h2 class="section-title">GitHub Activity</h2>
-			<div class="github-preview">
-				<div class="stats-preview">
-					<div class="stat-item">
-						<div class="stat-number">1,030+</div>
-						<div class="stat-label">Contributions</div>
-					</div>
-					<div class="stat-item">
-						<div class="stat-number">30+</div>
-						<div class="stat-label">Repositories</div>
-					</div>
-					<div class="stat-item">
-						<div class="stat-number">13+</div>
-						<div class="stat-label">Followers</div>
-					</div>
-					<div class="stat-item">
-						<div class="stat-number">6+</div>
-						<div class="stat-label">Languages</div>
-					</div>
-				</div>
-				<div class="github-preview-content">
-					<h3>Real-time GitHub Statistics</h3>
-					<p>
-						Track my coding journey with live GitHub statistics, contribution graphs, 
-						achievement badges, and language usage analytics. See my commitment to 
-						continuous learning, open-source contribution, and organizational collaboration 
-						with Kinabalu Makers.
-					</p>
-					<a href="/github" class="btn">View Detailed Stats</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
