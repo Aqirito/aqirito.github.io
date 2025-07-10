@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Tachibana Aqirito - System Analyst & AI Developer</title>
+	<title>Tachibana Aqirito - System Analyst & Edge Computing Specialist</title>
 	<meta name="description" content="Personal website of Tachibana Aqirito, System Analyst at Kinabalu Makers specializing in Edge Computing, AI development, and IoT solutions." />
 </svelte:head>
 
@@ -19,10 +19,10 @@
 		<div class="hero-content" class:fade-in-up={mounted}>
 			<h1 class="hero-title">Tachibana Aqirito</h1>
 			<p class="hero-subtitle">
-				System Analyst at Kinabalu Makers | AI Developer & Edge Computing Specialist
+				System Analyst at Kinabalu Makers | System Analyst & Edge Computing Specialist
 			</p>
 			<p class="hero-description">
-				Passionate about AI development, IoT solutions, and edge computing technologies in Sabah, Malaysia
+				Passionate about AI, Software Development, and Edge Computing technologies in Sabah, Malaysia
 			</p>
 			<div class="hero-actions">
 				<a href="/about" class="btn">Learn More About Me</a>
@@ -61,13 +61,38 @@
 		<h2 class="section-title">Featured Projects & Work</h2>
 		<div class="grid grid-2">
 			<div class="card" class:fade-in-up={mounted}>
-				<h3>A.L.I.C.E - AI Companion</h3>
-				<p>Artificial Labile Intelligence Cybernated Existence - A REST API for AI companions that enables creation of more complex intelligent systems.</p>
+				<h3>Reservation System</h3>
+				<p>A web-based reservation system, allowing users to book tickets and manage their visits to parks.</p>
 				<div class="skills-grid">
 					<span class="tech-tag">Python</span>
-					<span class="tech-tag">REST API</span>
-					<span class="tech-tag">AI/ML</span>
-					<span class="tech-tag">Natural Language</span>
+					<span class="tech-tag">Nodejs</span>
+					<span class="tech-tag">Google Cloud</span>
+					<span class="tech-tag">Docker</span>
+					<span class="tech-tag">Kubernetes</span>
+				</div>
+			</div>
+			<div class="card" class:fade-in-up={mounted}>
+				<h3>EPD AQUAMS IoT</h3>
+				<p>Air Quality Monitoring System in Schools - A project focused on monitoring and improving air quality in educational institutions.</p>
+				<div class="skills-grid">
+					<span class="tech-tag">Python</span>
+					<span class="tech-tag">IoT</span>
+					<span class="tech-tag">Data Analysis</span>
+					<span class="tech-tag">Cloud Computing</span>
+					<span class="tech-tag">Data Visualization</span>
+					<span class="tech-tag">Real-time Monitoring</span>
+					<span class="tech-tag">Environmental Awareness</span>
+				</div>
+			</div>
+			<div class="card" class:fade-in-up={mounted}>
+				<h3>e-Kan</h3>
+				<p>e-Kan - A comprehensive e-commerce platform designed for seamless online transactions and user engagement.</p>
+				<div class="skills-grid">
+					<span class="tech-tag">Python</span>
+					<span class="tech-tag">Node.js</span>
+					<span class="tech-tag">PostgreSQL</span>
+					<span class="tech-tag">Docker</span>
+					<span class="tech-tag">Kubernetes</span>
 				</div>
 			</div>
 			<div class="card" class:fade-in-up={mounted}>
@@ -125,9 +150,9 @@
 	<div class="container">
 		<div class="credits-content">
 			<h2>🤖 Built with AI Assistance</h2>
-			<p>This website was 98% created by <strong>Cline</strong> (AI coding assistant) and <strong>Manus</strong> (human guidance), showcasing the power of AI-human collaboration in modern web development.</p>
+			<p>This website was 80% created by <strong>Claude</strong> (AI coding assistant) and <strong>Manus</strong> (human guidance), showcasing the power of AI-human collaboration in modern web development.</p>
 			<div class="credits-tags">
-				<span class="credit-tag">Cline AI</span>
+				<span class="credit-tag">Claude AI</span>
 				<span class="credit-tag">Human-AI Collaboration</span>
 				<span class="credit-tag">SvelteKit</span>
 			</div>

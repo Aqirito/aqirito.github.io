@@ -88,7 +88,7 @@
 		<!-- Organization Repositories -->
 		{#if contributedRepos.length > 0}
 			<div class="org-repos">
-				<h3>Key Repositories</h3>
+				<h3>Public Repositories</h3>
 				<div class="repos-grid">
 					{#each contributedRepos as repo}
 						<div class="repo-card">

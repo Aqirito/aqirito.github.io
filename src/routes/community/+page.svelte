@@ -33,7 +33,7 @@
 						and innovation across our local ecosystem.
 					</p>
 					<div class="hero-links">
-						<a href="https://kinabalucoders.com" target="_blank" rel="noopener" class="btn">Visit Kinabalu Coders</a>
+						<a href="https://kinabalucoders.org" target="_blank" rel="noopener" class="btn">Visit Kinabalu Coders</a>
 					</div>
 				</div>
 			</div>
@@ -129,19 +129,19 @@
 					</div>
 					<div class="opensource-stats">
 						<div class="stat-item">
-							<div class="stat-number">25+</div>
+							<div class="stat-number">100+</div>
 							<div class="stat-label">Workshops Conducted</div>
 						</div>
 						<div class="stat-item">
-							<div class="stat-number">15+</div>
+							<div class="stat-number">100+</div>
 							<div class="stat-label">Tech Talks Given</div>
 						</div>
 						<div class="stat-item">
-							<div class="stat-number">50+</div>
+							<div class="stat-number">100+</div>
 							<div class="stat-label">Developers Mentored</div>
 						</div>
 						<div class="stat-item">
-							<div class="stat-number">10+</div>
+							<div class="stat-number">100+</div>
 							<div class="stat-label">Events Organized</div>
 						</div>
 					</div>
@@ -195,7 +195,7 @@
 				</p>
 				<div class="cta-actions">
 					<a href="/contact" class="btn">Get Involved</a>
-					<a href="https://kinabalucoders.com" target="_blank" rel="noopener" class="btn btn-outline">Learn More</a>
+					<a href="https://kinabalucoders.org" target="_blank" rel="noopener" class="btn btn-outline">Learn More</a>
 				</div>
 			</div>
 		</div>

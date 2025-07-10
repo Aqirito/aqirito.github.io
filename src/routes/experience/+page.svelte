@@ -44,19 +44,22 @@
 
 							<h3>Technologies & Tools</h3>
 							<div class="tech-stack">
-								<span class="tech-tag">JavaScript</span>
-								<span class="tech-tag">TypeScript</span>
-								<span class="tech-tag">React</span>
-								<span class="tech-tag">Node.js</span>
-								<span class="tech-tag">SvelteKit</span>
-								<span class="tech-tag">PostgreSQL</span>
+								<span class="tech-tag">Edge Computing</span>
+								<span class="tech-tag">Frontend Development</span>
+								<span class="tech-tag">Backend Development</span>
+								<span class="tech-tag">IoT Solutions</span>
+								<span class="tech-tag">AI Development</span>
+								<span class="tech-tag">Cloud Computing</span>
+								<span class="tech-tag">Kubernetes</span>
 								<span class="tech-tag">Docker</span>
-								<span class="tech-tag">AWS</span>
-								<span class="tech-tag">Git</span>
 							</div>
 
 							<h3>Notable Projects</h3>
 							<div class="projects-grid">
+								<div class="project-item">
+									<h4>Real-Time Data Processing System</h4>
+									<p>Developed a system for processing and analyzing real-time data from IoT sensors, enhancing decision-making capabilities.</p>
+								</div>
 								<div class="project-item">
 									<h4>Enterprise Web Platform</h4>
 									<p>Developed a comprehensive web platform serving thousands of users with real-time data processing and interactive dashboards.</p>
@@ -82,8 +85,8 @@
 					<div class="card experience-card">
 						<div class="experience-header">
 							<h2>Software Developer</h2>
-							<div class="company">Previous Technology Company</div>
-							<div class="period">2021 - 2023</div>
+							<div class="company">Kinabalu Makers</div>
+							<div class="period">2020 - 2023</div>
 						</div>
 						
 						<div class="experience-details">
@@ -116,23 +119,25 @@
 					<div class="card experience-card">
 						<div class="experience-header">
 							<h2>Technology Education & Early Career</h2>
-							<div class="company">Academic & Self-Directed Learning</div>
-							<div class="period">2019 - 2021</div>
+							<div class="company">Politeknik Kota Kinabalu</div>
+							<div class="period">2017 - 2019</div>
 						</div>
-						
 						<div class="experience-details">
 							<h3>Foundation Building</h3>
 							<ul>
-								<li>Completed comprehensive studies in computer science and software engineering</li>
-								<li>Built foundational projects in web development and programming</li>
+								<li>Completed comprehensive studies in Mechatronics Engineering</li>
+								<li>Built foundational projects in Robotics, IoT systems and automation</li>
 								<li>Participated in coding bootcamps and online learning platforms</li>
-								<li>Contributed to open-source projects and community initiatives</li>
+								<li>Represented Politeknik Kota Kinabalu in Autonomous drone category</li>
+								<li>Elected to be Competitor for 24th FIRA World Cup 2019 in Changwon, South Korea</li>
+								<li>Awarded fastest Obstacle challenge on Air Drone Category in FIRA World Cup Changwon, South Korea 2019</li>
+								<li>Member of Robotics Club Politeknik Kota Kinabalu</li>
 							</ul>
 
 							<h3>Core Competencies Acquired</h3>
 							<div class="skills-grid">
 								<span class="skill-tag">Programming Fundamentals</span>
-								<span class="skill-tag">Web Technologies</span>
+								<span class="skill-tag">Robotics</span>
 								<span class="skill-tag">Problem Solving</span>
 								<span class="skill-tag">Software Architecture</span>
 								<span class="skill-tag">Version Control</span>
@@ -152,23 +157,19 @@
 					<div class="skill-category">
 						<h3>Frontend Development</h3>
 						<div class="skills-list">
-							<span class="tech-tag">HTML5 & CSS3</span>
-							<span class="tech-tag">JavaScript (ES6+)</span>
-							<span class="tech-tag">TypeScript</span>
-							<span class="tech-tag">React</span>
-							<span class="tech-tag">Svelte/SvelteKit</span>
+							<span class="tech-tag">Cross-Platform Applications</span>
+							<span class="tech-tag">Enterprise System</span>
 							<span class="tech-tag">Responsive Design</span>
 						</div>
 					</div>
 					<div class="skill-category">
 						<h3>Backend Development</h3>
 						<div class="skills-list">
-							<span class="tech-tag">Node.js</span>
-							<span class="tech-tag">Express.js</span>
-							<span class="tech-tag">RESTful APIs</span>
-							<span class="tech-tag">GraphQL</span>
+							<span class="tech-tag">API Development</span>
+							<span class="tech-tag">Microservices</span>
 							<span class="tech-tag">Database Design</span>
-							<span class="tech-tag">Authentication</span>
+							<span class="tech-tag">Data Integrity</span>
+							<span class="tech-tag">3rd Party Integrations</span>
 						</div>
 					</div>
 					<div class="skill-category">
@@ -176,7 +177,7 @@
 						<div class="skills-list">
 							<span class="tech-tag">Git & GitHub</span>
 							<span class="tech-tag">Docker</span>
-							<span class="tech-tag">AWS/Cloud Services</span>
+							<span class="tech-tag">Cloud Services</span>
 							<span class="tech-tag">CI/CD Pipelines</span>
 							<span class="tech-tag">Testing Frameworks</span>
 							<span class="tech-tag">Agile/Scrum</span>

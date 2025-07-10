@@ -46,7 +46,7 @@
 				<div class="card info-card">
 					<h2>Let's Connect</h2>
 					<p>
-						I'm always excited to discuss AI development projects, edge computing solutions, IoT integrations, 
+						I'm always excited to discuss edge computing solutions, IoT integrations, 
 						or innovative technology ideas. Whether you're interested in collaboration, have questions about 
 						my projects, or want to explore new possibilities in intelligent systems, I'd love to hear from you.
 					</p>
@@ -75,7 +75,7 @@
 							<div class="method-content">
 								<h3>Professional</h3>
 								<p>Kinabalu Makers Sdn. Bhd</p>
-								<span class="method-note">Kunak, Sabah, Malaysia</span>
+								<span class="method-note">Kota Kinabalu, Sabah, Malaysia</span>
 							</div>
 						</div>
 
@@ -83,7 +83,7 @@
 							<div class="method-icon">🤖</div>
 							<div class="method-content">
 								<h3>Specialization</h3>
-								<p>AI Development & Edge Computing</p>
+								<p>Software Development, System Analyst & Edge Computing</p>
 								<span class="method-note">System Analysis & IoT Solutions</span>
 							</div>
 						</div>
@@ -92,11 +92,11 @@
 					<div class="community-links">
 						<h3>Community Connections</h3>
 						<div class="community-buttons">
-							<a href="https://kinabalumakers.com" target="_blank" rel="noopener" class="community-btn">
+							<a href="https://kinabalumakers.dev" target="_blank" rel="noopener" class="community-btn">
 								<span class="btn-icon">🏢</span>
 								Kinabalu Makers
 							</a>
-							<a href="https://kinabalucoders.com" target="_blank" rel="noopener" class="community-btn">
+							<a href="https://kinabalucoders.org" target="_blank" rel="noopener" class="community-btn">
 								<span class="btn-icon">👥</span>
 								Kinabalu Coders
 							</a>

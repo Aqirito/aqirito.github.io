@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="about-header" class:fade-in-up={mounted}>
 			<h1>About Me</h1>
-			<p class="lead">System Analyst and AI developer passionate about edge computing, IoT solutions, and intelligent systems</p>
+			<p class="lead">System Analyst and Edge Computing Specialist passionate about AI development, IoT solutions, and intelligent systems</p>
 		</div>
 
 		<div class="about-content">
@@ -25,7 +25,7 @@
 				<div class="about-text" class:fade-in-up={mounted}>
 					<h2>Professional Journey</h2>
 					<p>
-						As a System Analyst at Kinabalu Makers Sdn. Bhd in Kunak, Sabah, I specialize in developing 
+						As a System Analyst at Kinabalu Makers Sdn. Bhd in Kota Kinabalu, Sabah, I specialize in developing 
 						intelligent systems and edge computing solutions. My work focuses on creating AI-driven applications, 
 						analyzing complex systems, and implementing IoT solutions that bridge the gap between traditional 
 						computing and emerging edge technologies.

@@ -17,12 +17,12 @@
 
 <section class="section">
 	<div class="container">
-		<div class="page-header" class:fade-in-up={mounted}>
+		<!-- <div class="page-header" class:fade-in-up={mounted}>
 			<h1>GitHub Statistics & Achievements</h1>
 			<p class="lead">
 				Real-time insights into my coding journey, contributions, and achievements on GitHub
 			</p>
-		</div>
+		</div> -->
 
 		<!-- GitHub Stats Component -->
 		<GitHubStats username="Aqirito" theme="default" />
@@ -79,7 +79,7 @@
 					<a href="https://github.com/Aqirito" target="_blank" rel="noopener" class="btn">
 						🔗 Visit My GitHub
 					</a>
-					<a href="https://github.com/kinabalu-makers" target="_blank" rel="noopener" class="btn btn-outline">
+					<a href="https://kinabalumakers.dev" target="_blank" rel="noopener" class="btn btn-outline">
 						🏢 Kinabalu Makers
 					</a>
 					<a href="/contact" class="btn btn-outline">
