@@ -163,7 +163,8 @@
 								></textarea>
 							</div>
 
-							<button type="submit" class="btn btn-submit" disabled={isSubmitting}>
+							<!-- <button type="submit" class="btn btn-submit" disabled={isSubmitting}> -->
+							<button type="submit" class="btn btn-submit" disabled>
 								{#if isSubmitting}
 									Sending...
 								{:else}
