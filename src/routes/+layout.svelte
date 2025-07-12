@@ -28,8 +28,14 @@
 			<span></span>
 		</button>
 		
-		<!-- Navigation menu -->
 		<div class="nav-menu" class:mobile-open={mobileMenuOpen}>
+			<button
+				style="all: unset; position: absolute; top: 1rem; right: 1rem;"
+				on:click={toggleMobileMenu}
+				aria-label="Toggle mobile menu"
+			>
+				<span style="color: whitesmoke; font-size: 1.5rem; font-weight: 700; padding: 0.5rem;">X</span>
+			</button>
 			<a href="/" class="nav-link" on:click={closeMobileMenu}>Home</a>
 			<a href="/about" class="nav-link" on:click={closeMobileMenu}>About</a>
 			<a href="/experience" class="nav-link" on:click={closeMobileMenu}>Experience</a>
@@ -42,7 +48,7 @@
 		<!-- Mobile menu overlay -->
 		{#if mobileMenuOpen}
 			<div 
-				class="mobile-overlay" 
+				class="mobile-overlay"
 				on:click={closeMobileMenu}
 				on:keydown={(e) => e.key === 'Escape' && closeMobileMenu()}
 				role="button"
