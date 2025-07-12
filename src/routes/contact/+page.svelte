@@ -1,17 +1,15 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	
-	let mounted = false;
-	let formData = {
+	let mounted = $state(false);
+	let formData = $derived({
 		name: '',
 		email: '',
 		subject: '',
 		message: ''
-	};
-	let isSubmitting = false;
-	let submitMessage = '';
-	
-	onMount(() => {
+	});
+	let isSubmitting = $state(false);
+	let submitMessage = $state('');
+
+	$effect(() => {
 		mounted = true;
 	});
 

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { 
 		fetchGitHubOrg, 
 		fetchGitHubOrgRepos, 
@@ -8,44 +7,48 @@
 		type GitHubOrgRepo 
 	} from '../github';
 
-	export let username: string = 'Aqirito';
-	export let orgName: string = 'kinabalu-makers';
-	
-	let mounted = false;
-	let organization: GitHubOrg | null = null;
-	let orgRepos: GitHubOrgRepo[] = [];
-	let userOrgs: GitHubOrg[] = [];
-	let loading = true;
-	let error = '';
+	const { username = 'Aqirito', orgName = 'kinabalu-makers' } = $props<{
+		username?: string;
+		orgName?: string;
+	}>();
 
-	onMount(async () => {
+	let mounted = $state(false);
+	let organization: GitHubOrg | null = $state(null);
+	let orgRepos: GitHubOrgRepo[] = $state([]);
+	let userOrgs: GitHubOrg[] = $state([]);
+	let loading = $state(true);
+	let error = $state('');
+
+	$effect.pre(() => {
 		mounted = true;
-		try {
-			// Fetch organization data
-			organization = await fetchGitHubOrg(orgName);
-			
-			// Fetch organization repositories
-			orgRepos = await fetchGitHubOrgRepos(orgName);
-			
-			// Fetch user's organizations
-			userOrgs = await fetchUserOrgs(username);
-		} catch (err) {
+		Promise.all([
+			fetchGitHubOrg(orgName),
+			fetchGitHubOrgRepos(orgName),
+			fetchUserOrgs(username)
+		])
+		.then(([org, repos, orgs]) => {
+			organization = org;
+			orgRepos = repos;
+			userOrgs = orgs;
+		})
+		.catch((err) => {
 			error = 'Failed to load organization data';
 			console.error(err);
-		} finally {
+		})
+		.finally(() => {
 			loading = false;
-		}
+		});
 	});
 
 	// Filter repositories that might have user contributions
-	$: contributedRepos = orgRepos.filter(repo => 
-		repo.language && repo.stargazers_count >= 0
-	).slice(0, 6); // Show top 6 repos
+	const contributedRepos = $derived(
+		orgRepos.filter(repo => repo.language && repo.stargazers_count >= 0).slice(0, 6)
+	);
 
 	// Calculate total stats
-	$: totalStars = orgRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0);
-	$: totalForks = orgRepos.reduce((sum, repo) => sum + repo.forks_count, 0);
-	$: languages = [...new Set(orgRepos.map(repo => repo.language).filter(Boolean))];
+	const totalStars = $derived(orgRepos.reduce((sum, repo) => sum + repo.stargazers_count, 0));
+	const totalForks = $derived(orgRepos.reduce((sum, repo) => sum + repo.forks_count, 0));
+	const languages = $derived([...new Set(orgRepos.map(repo => repo.language).filter(Boolean))]);
 </script>
 
 <div class="org-contributions" class:fade-in-up={mounted}>

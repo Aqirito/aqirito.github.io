@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { 
 		getGitHubStatsUrl, 
 		getTopLanguagesUrl, 
@@ -12,33 +11,42 @@
 		type GitHubUser
 	} from '../github';
 
-	export let username: string = 'Aqirito';
-	export let theme: string = 'default';
-	
-	let mounted = false;
-	let user: GitHubUser | null = null;
-	let loading = true;
-	let error = '';
+	const { username = 'Aqirito', theme = 'default' } = $props<{
+		username?: string;
+		theme?: string;
+	}>();
 
-	onMount(async () => {
+	let mounted = $state(false);
+	let user: GitHubUser | null = $state(null);
+	let loading = $state(true);
+	let error = $state('');
+
+	$effect.pre(() => {
 		mounted = true;
-		try {
-			user = await fetchGitHubUser(username);
-		} catch (err) {
-			error = 'Failed to load GitHub data';
-			console.error(err);
-		} finally {
-			loading = false;
-		}
+		fetchGitHubUser(username)
+			.then((result) => {
+				user = result;
+			})
+			.catch((err) => {
+				error = 'Failed to load GitHub data';
+				console.error(err);
+			})
+			.finally(() => {
+				loading = false;
+			});
 	});
 
-	let badgeStyle: 'default' | 'gradient' | 'minimal' | 'neon' | 'glass' = 'neon';
+	let badgeStyle: 'default' | 'gradient' | 'minimal' | 'neon' | 'glass' = $state('neon');
 
-	$: statsUrl = getGitHubStatsUrl(username, theme);
-	$: languagesUrl = getTopLanguagesUrl(username, theme);
-	$: streakUrl = getStreakStatsUrl(username, theme);
-	$: activityUrl = getActivityGraphUrl(username, theme);
-	$: trophyUrl = badgeStyle === 'default' ? getTrophyUrl(username, theme) : getModernTrophyUrl(username, badgeStyle);
+	const statsUrl = $derived(getGitHubStatsUrl(username, theme));
+	const languagesUrl = $derived(getTopLanguagesUrl(username, theme));
+	const streakUrl = $derived(getStreakStatsUrl(username, theme));
+	const activityUrl = $derived(getActivityGraphUrl(username, theme));
+	const trophyUrl = $derived(
+		(badgeStyle as 'default' | 'gradient' | 'minimal' | 'neon' | 'glass') === 'default'
+			? getTrophyUrl(username, theme)
+			: getModernTrophyUrl(username, badgeStyle)
+	);
 </script>
 
 <div class="github-stats" class:fade-in-up={mounted}>
@@ -97,7 +105,7 @@
 					src={languagesUrl} 
 					alt="Top Languages" 
 					loading="lazy"
-					on:error={(e) => {
+					onerror={(e) => {
 						const target = e.target as HTMLImageElement;
 						if (target) target.style.display = 'none';
 					}}
@@ -110,7 +118,7 @@
 					src={streakUrl} 
 					alt="GitHub Streak" 
 					loading="lazy"
-					on:error={(e) => {
+					onerror={(e) => {
 						const target = e.target as HTMLImageElement;
 						if (target) target.style.display = 'none';
 					}}
@@ -137,7 +145,7 @@
 				src={trophyUrl} 
 				alt="GitHub Trophies" 
 				loading="lazy"
-				on:error={(e) => {
+				onerror={(e) => {
 					const target = e.target as HTMLImageElement;
 					if (target) target.style.display = 'none';
 				}}
@@ -151,7 +159,7 @@
 				src={activityUrl} 
 				alt="GitHub Activity Graph" 
 				loading="lazy"
-				on:error={(e) => {
+				onerror={(e) => {
 					const target = e.target as HTMLImageElement;
 					if (target) target.style.display = 'none';
 				}}

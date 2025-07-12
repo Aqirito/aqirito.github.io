@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	
-	let mounted = false;
+	let mounted = $state(false);
 	
-	onMount(() => {
+	$effect(() => {
 		mounted = true;
 	});
 </script>

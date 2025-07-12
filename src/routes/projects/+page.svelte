@@ -1,227 +1,24 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	
-	let mounted = false;
-	
-	onMount(() => {
+	import Projects from '$lib/contents/projects.json';
+
+	let mounted = $state(false);
+
+	$effect(() => {
 		mounted = true;
 	});
 
-	const projects = [
-		{
-			id: 1,
-			title: "EPD Aquams Electronics",
-			category: "App Development",
-			description: "Professional project at Kinabalu Makers involving Air Quality Monitoring System in Schools.",
-			technologies: ["Python", "Electronics", "IoT", "Google Cloud", "Docker"],
-			features: [
-        "Real-time air quality monitoring",
-        "Data visualization",
-        "Integration with school systems",
-        "Alerts and notifications",
-        "Scalable architecture",
-        "Data analytics",
-        "Remote access",
-        "Multi-device support"
-			],
-			status: "Production",
-			company: "Kinabalu Makers",
-			stars: 0,
-			forks: 0
-		},
-		{
-			id: 2,
-			title: "E-COCOA",
-			category: "App Development",
-			description: "Kinabalu Era Takzim’s project with LKM e-cocoa",
-			technologies: ["Python", "Nodejs", "ASP.NET", "Micrsoft Azure", "Docker"],
-			features: [
-				"REST API integration",
-				"Project management",
-				"Collaboration tools"
-			],
-			status: "Production",
-			company: "Kinabalu Era Takzim",
-			stars: 0,
-			forks: 0
-		},
-		{
-			id: 3,
-			title: "Platform e-Kan",
-			category: "App Development",
-			description: "KO-NELAYAN’s e-commerce platform",
-			technologies: ["Python", "Nodejs", "Google Cloud", "PostgreSQL", "Docker", "Kubernetes"],
-			features: [
-				"e-commerce functionality",
-				"User management",
-				"Payment integration",
-        "Product catalog",
-        "POSLAJU integration",
-        "Order tracking",
-        "Inventory management",
-        "Android app integration",
-			],
-			status: "Production",
-			company: "KO-NELAYAN",
-			stars: 0,
-			forks: 0
-		},
-		{
-			id: 4,
-			title: "MPT Smart Server Room Monitoring",
-			category: "IoT & Sensors",
-			description: "IoT and computer vision monitoring of server room in MPT",
-			technologies: ["AI", "IoT", "Computer Vision", "Google Cloud", "Docker"],
-			features: [
-				"Real-time monitoring",
-				"Alert system",
-				"Data visualization"
-			],
-			status: "Production",
-			company: "MPT",
-			stars: 0,
-			forks: 0
-		},
-		{
-			id: 5,
-			title: "LoveKK",
-			category: "App Development",
-			description: "A web application for promoting DBKK’s campaigns and events",
-			technologies: ["Python", "Nodejs", "PostgreSQL", "Docker"],
-			features: [
-				"Campaign promotion",
-				"User engagement",
-				"Social media integration",
-        "Gamification features",
-        "Event management",
-        "Community feedback"
-			],
-			status: "Archived",
-			company: "DBKK",
-			stars: 0,
-			forks: 0
-		},
-		{
-			id: 6,
-			title: "Reservation System",
-			category: "App Development",
-			description: "A web-based reservation system, allowing users to book tickets and manage their visits to parks.",
-			technologies: ["Python", "Nodejs", "Google Cloud", "Docker", "Kubernetes"],
-			features: [
-				"Online booking",
-				"Ticket management",
-				"Visitor tracking"
-			],
-			status: "Production",
-			company: "Teraz Global",
-			stars: 0,
-			forks: 0
-		},
-		{
-			id: 7,
-			title: "A.L.I.C.E",
-			category: "AI Development",
-			description: "Artificial Labile Intelligence Cybernated Existence - A REST API of A.I companion for creating more complex intelligent systems with natural language processing capabilities.",
-			technologies: ["Python", "REST API", "AI/ML", "Natural Language Processing"],
-			features: [
-				"AI companion REST API",
-				"Natural language processing",
-				"Complex system integration",
-				"Scalable architecture",
-				"Real-time responses"
-			],
-			status: "Production",
-			company: "Personal Project",
-			stars: 9,
-			forks: 1
-		},
-		{
-			id: 8,
-			title: "WaifuGPT",
-			category: "AI Development",
-			description: "A ChatGPT-like AI chatbot with personality that can talk to you with real life-like human characteristics. Features engaging conversations with a unique twist.",
-			technologies: ["Python", "AI/ML", "Chatbot", "Natural Language"],
-			features: [
-				"Human-like personality",
-				"Engaging conversations",
-				"ChatGPT-like interface",
-				"Personality customization",
-				"Interactive responses"
-			],
-			status: "Archived",
-			company: "Personal Project",
-			stars: 1,
-			forks: 0
-		},
-		{
-			id: 9,
-			title: "Resin Timer App",
-			category: "App Development",
-			description: "An Android application that reminds users when their resin is fully replenished. Perfect for gamers who need to track resource regeneration timers.",
-			technologies: ["TypeScript", "Android", "Mobile App", "Notifications"],
-			features: [
-				"Resin tracking system",
-				"Push notifications",
-				"Timer management",
-				"User-friendly interface",
-				"Resource optimization"
-			],
-			status: "Production",
-			company: "Personal Project",
-			stars: 1,
-			forks: 0
-		},
-		{
-			id: 10,
-			title: "GHAWN-RED",
-			category: "IoT & Automation",
-			description: "Google Home Assistant With Node-RED integration that allows automation control of your PC and other smart devices through voice commands.",
-			technologies: ["Python", "Node-RED", "Google Assistant", "IoT", "Voice Control"],
-			features: [
-				"Voice PC control",
-				"Google Assistant integration",
-				"Node-RED automation",
-				"Smart device control",
-				"Custom voice commands"
-			],
-			status: "Production",
-			company: "Personal Project",
-			stars: 0,
-			forks: 0
-		},
-		{
-			id: 11,
-			title: "DFRobot MultiGasSensor",
-			category: "IoT & Sensors",
-			description: "Micropython integration for DFRobot MultigasSensor Library, enabling easy sensor data collection and processing for IoT applications.",
-			technologies: ["Python", "MicroPython", "IoT Sensors", "Hardware Integration"],
-			features: [
-				"Multi-gas detection",
-				"MicroPython support",
-				"Sensor data processing",
-				"Hardware integration",
-				"Real-time monitoring"
-			],
-			status: "Production",
-			company: "Fork/Contribution from DFRobot",
-			stars: 0,
-			forks: 0
-		}
-	];
-
-	let selectedCategory = "All";
-	let filteredProjects = projects;
-
-	function filterProjects(category: string) {
-		selectedCategory = category;
-		if (category === "All") {
-			filteredProjects = projects;
-		} else {
-			filteredProjects = projects.filter(project => project.category === category);
-		}
-	}
-
+	const projects: any[] = Projects;
+	
 	const categories = ["All", "AI Development", "App Development", "IoT & Automation", "IoT & Sensors"];
+	let selectedCategory = $state("All");
+
+	let filteredProjects = $derived.by(() => {
+		if (selectedCategory === "All") {
+			return projects;
+		}
+		return projects.filter(project => project.category === selectedCategory);
+	});
+
 </script>
 
 <svelte:head>
@@ -242,7 +39,7 @@
 				<button 
 					class="filter-btn" 
 					class:active={selectedCategory === category}
-					on:click={() => filterProjects(category)}
+					onclick={() => selectedCategory = category}
 				>
 					{category}
 				</button>

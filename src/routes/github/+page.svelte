@@ -1,11 +1,10 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import GitHubStats from '$lib/components/GitHubStats.svelte';
 	import OrganizationContributions from '$lib/components/OrganizationContributions.svelte';
 	
-	let mounted = false;
-	
-	onMount(() => {
+	let mounted = $state(false);
+
+	$effect(() => {
 		mounted = true;
 	});
 </script>
