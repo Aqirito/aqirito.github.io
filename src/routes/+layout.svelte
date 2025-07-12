@@ -33,6 +33,7 @@
 				style="all: unset; position: absolute; top: 1rem; right: 1rem;"
 				on:click={toggleMobileMenu}
 				aria-label="Toggle mobile menu"
+				class:hide={!mobileMenuOpen}
 			>
 				<span style="color: whitesmoke; font-size: 1.5rem; font-weight: 700; padding: 0.5rem;">X</span>
 			</button>

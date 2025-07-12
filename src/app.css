@@ -760,3 +760,7 @@ a:hover {
 		grid-template-columns: repeat(2, 1fr);
 	}
 }
+
+.hide {
+	display: none !important;
+}
